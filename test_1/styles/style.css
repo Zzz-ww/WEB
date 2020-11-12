@@ -1,0 +1,10 @@
+html {
+    background-color: #00539F;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    width: 500px;
+    border: 1px solid black;
+}
