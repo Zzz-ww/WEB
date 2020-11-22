@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="741d0274-bd15-4214-b910-4c1819e9cf44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_1/imgs/img1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_1/imgs/img2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_1/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_1/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_1/test1.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,7 @@
       <workItem from="1605160531219" duration="69000" />
       <workItem from="1605161659312" duration="136000" />
       <workItem from="1605162850761" duration="336000" />
+      <workItem from="1606012935513" duration="395000" />
     </task>
     <servers />
   </component>
@@ -68,6 +73,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="273" key="Vcs.Push.Dialog.v2" timestamp="1605162985304">
