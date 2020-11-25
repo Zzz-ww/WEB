@@ -1,0 +1,161 @@
+/*General set up*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+
+/* Layout: section, aside & nav 依次靠左浮动（float), 然后'clear' 要讓這兩個元素不要併排在一起，則可以使用 clear 來宣告清除 CSS float 浮動效果 */
+
+section {
+    float: left;
+    width: 40%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+    padding: 20px;
+}
+
+
+/* header and footer */
+
+header,
+footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+
+/* typography stuff */
+
+html {
+    font-family: lovatolight, serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+
+/* h2+p 的意思是h2接下来的元素p缩进20px */
+
+section h2+p {
+    text-indent: 20px;
+}
+
+p,
+li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+
+
+/* Link styling */
+
+a {
+    outline: none;
+}
+
+a[href*="http"] {
+    padding-right: 19px;
+    background: url(external-link-52.png) no-repeat 100% 0;
+    background-size: 16px 16px;
+}
+
+a:link,
+a:visited {
+    color: #a66;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: transparent;
+    text-shadow: 0px 0px 1px #f00, 0px 0px 2px #f00, 0px 0px 3px black, 0px 0px 4px black;
+}
+
+
+/* lists: extra margin top and bottom to make it
+always have the same spacing as with paragraphs */
+
+ul,
+ol {
+    margin: 1.6rem 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-latin;
+}
+
+
+/* nav menu */
+
+nav ul {
+    padding-left: 0;
+    margin-top: 0.8rem;
+}
+
+nav li {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 2.5rem;
+    border: 1px solid #a66;
+}
+
+nav li a:focus,
+nav li a:hover {
+    color: white;
+    background: #a66;
+}
+
+nav li a:active {
+    color: white;
+    background: black;
+}
